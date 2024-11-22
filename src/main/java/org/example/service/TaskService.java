@@ -106,8 +106,8 @@ public class TaskService {
                 .description(e.getDescription())
                 .status(e.getStatus())
                 .dueDate(e.getDueDate().toString())
-                .createdAT(e.getCreatedAt().toLocalDateTime())
-                .updatedAT(e.getUpdatedAt().toLocalDateTime())
+                .createdAt(e.getCreatedAt().toLocalDateTime())
+                .updatedAt(e.getUpdatedAt().toLocalDateTime())
                 .build();
     }
 }

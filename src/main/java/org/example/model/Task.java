@@ -25,8 +25,8 @@ public class Task {
 
     private String dueDate;
 
-    private LocalDateTime createdAT;
+    private LocalDateTime createdAt;
 
-    private LocalDateTime updatedAT;
+    private LocalDateTime updatedAt;
 
 }
